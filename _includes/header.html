@@ -1,3 +1,4 @@
+{% assign default_paths = site.pages | map: "path" %} {% assign page_paths = site.header_pages | default: default_paths %}
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -10,11 +11,14 @@
           </button>
             <a class="navbar-brand" href="/"><img src="{{ "/images/logo.png" | relative_url }}" alt="Beck et al. Services" class="logo"></a>
         </div>
+        {% if page_paths %}
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="tel:+49 (89) 53 88 63 - 0">+49 (89) 53 88 63 - 0</a></li>
-                <li><a href="https://www.bea-services.com" class="btn btn-default btn-xs btn-white">Site</a></li>
+                {% for path in page_paths %} {% assign my_page = site.pages | where: "path", path | first %} {% if my_page.title %}
+                <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li> {% endif %}
+                {% endfor %}
             </ul>
         </div>
+        {% endif %}
     </div>
 </nav>
