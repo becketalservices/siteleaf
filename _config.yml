@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -30,7 +31,7 @@ theme: minima
 sass:
   style: compressed
 gems:
-  - jekyll-feed
+- jekyll-feed
 exclude:
-  - Gemfile
-  - Gemfile.lock
+- Gemfile
+- Gemfile.lock
