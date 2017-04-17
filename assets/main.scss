@@ -1,0 +1,59 @@
+--- 
+--- 
+
+@import "bootstrap";
+@import url(//fonts.googleapis.com/css?family=Alef:400,700);
+
+$alef: Alef, Helvetica, Arial, sans-serif;
+$white: #fdfdfd;
+$red: #cc0000;
+$ice: #e6e6e6;
+
+body {
+    font-family: $alef; 
+    padding-top: 120px;
+}
+
+.navbar {
+    background-color: $red;
+    min-height: 95px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: $white;
+}
+
+.navbar-nav {
+    margin-right: 10px;
+}
+
+.navbar-nav>li>a.btn-white {
+    background-color: $white;
+    border: none;
+    color: $red;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: $ice;
+}
+
+.navbar-default .navbar-nav>li>a.btn-white:hover {
+    background-color: $ice;
+    color: $red;
+}
+
+.footer {
+    border-top: 2px solid $ice;
+    bottom: 0;
+    margin: 50px 0;
+    padding: 50px 0 0;
+    position: absolute;
+    width: 100%;
+}
+
+.footer .logo-icon {
+    left: 50%;
+    margin-left: -30px;
+    position: absolute;
+    top: -20px;
+}
