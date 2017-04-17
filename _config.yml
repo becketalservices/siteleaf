@@ -5,3 +5,14 @@ collections:
   uploads:
     title: Uploads
     output: true
+highlighter: pygments
+markdown: kramdown
+permalink: pretty
+theme: minima
+sass:
+  style: compressed
+gems:
+  -- jekyll-feed
+exclude:
+  -- Gemfile
+  -- Gemfile.lock
