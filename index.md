@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 ## Hi this is my site
 
 This is the **index** page.
