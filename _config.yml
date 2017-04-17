@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 permalink: pretty
 sass:
