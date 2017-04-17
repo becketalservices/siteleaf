@@ -14,7 +14,7 @@ permalink: pretty
 sass:
   style: compressed
 gems:
-  - jekyll-feed
+- jekyll-feed
 exclude:
-  - Gemfile
-  - Gemfile.lock
+- Gemfile
+- Gemfile.lock
