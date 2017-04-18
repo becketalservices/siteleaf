@@ -1,6 +1,6 @@
 ---
-title: Teste 1
-layout: default
+layout: page
+title: Page 1
 ---
 
 # Beck et al Services

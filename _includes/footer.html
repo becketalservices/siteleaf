@@ -9,3 +9,7 @@
         </div>
     </div>
 </footer>
+{% assign talkus_id = page.talkus_id | default: site.talkus_id %}
+{% if talkus_id and page.support %}
+{% include talkus.html %}
+{% endif %}
