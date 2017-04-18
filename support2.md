@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Support 2
 permalink: "/your/support"
+layout: page
 support: true
 talkus_id: xxxxx
 ---

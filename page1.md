@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Page 1
+layout: page
 ---
 
 # Beck et al Services

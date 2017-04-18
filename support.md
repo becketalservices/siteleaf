@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Support
 permalink: "/my/support"
+layout: page
 support: true
 ---
 
